@@ -1,0 +1,8 @@
+<footer>
+  <div class="social-links">
+    {% for link in site.footer.social %}
+      <a href="{{ link.url }}">{{ link.title }}</a>
+    {% endfor %}
+  </div>
+  <p>{{ site.footer.copyright }}</p>
+</footer>
