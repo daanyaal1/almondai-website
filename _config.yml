@@ -1,7 +1,6 @@
 name: "Almond AI Theme"
 author: "Almond AI"
 version: "1.0.0"
-baseurl: "/almondai-website" # Replace 'repository-name' with your GitHub Pages repository name
 layout:
   theme_color: "#a0522d" # Earthy almond orangey-brown
   background_color: "#faf3e0" # Light almond shell color
