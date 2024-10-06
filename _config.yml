@@ -2,10 +2,10 @@ name: "Almond AI Theme"
 author: "Almond AI"
 version: "1.0.0"
 layout:
-  theme_color: "#a0522d"  # Earthy almond orangey-brown
-  background_color: "#faf3e0"  # Light almond shell color
-  text_color: "#333333"  # Dark text color for readability
-  link_color: "#d2691e"  # Orangey-brown link color
+  theme_color: "#a0522d" # Earthy almond orangey-brown
+  background_color: "#faf3e0" # Light almond shell color
+  text_color: "#333333" # Dark text color for readability
+  link_color: "#d2691e" # Orangey-brown link color
   fonts:
     primary: "'Roboto', sans-serif"
 
@@ -26,7 +26,7 @@ header:
 footer:
   social:
     - title: "LinkedIn"
-      url: "https://linkedin.com/company/almondai"
+      url: "https://linkedin.com/company/almond-ai"
     - title: "GitHub"
-      url: "https://github.com/almondai"
+      url: "https://github.com/daanyaal1"
   copyright: "&copy; 2024 Almond AI. All rights reserved."
