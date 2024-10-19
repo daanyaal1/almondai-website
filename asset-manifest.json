@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/almondai-website/static/css/main.e6c13ad2.css",
+    "main.js": "/almondai-website/static/js/main.a8810d6f.js",
+    "static/js/453.73575541.chunk.js": "/almondai-website/static/js/453.73575541.chunk.js",
+    "index.html": "/almondai-website/index.html",
+    "main.e6c13ad2.css.map": "/almondai-website/static/css/main.e6c13ad2.css.map",
+    "main.a8810d6f.js.map": "/almondai-website/static/js/main.a8810d6f.js.map",
+    "453.73575541.chunk.js.map": "/almondai-website/static/js/453.73575541.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.a8810d6f.js"
+  ]
+}
