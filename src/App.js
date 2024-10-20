@@ -5,8 +5,8 @@ import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import Products from './pages/Products';
 import Blog from './pages/Blog';
-import Footer from './components/Footer';  // Import the Footer component
-
+import BlogPost from './pages/BlogPost';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,8 +17,9 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/products" element={<Products />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:postId" element={<BlogPost />} /> {/* Dynamic route for blog posts */}
       </Routes>
-      <Footer />  {/* Add Footer component here */}
+      <Footer />
     </Router>
   );
 }
