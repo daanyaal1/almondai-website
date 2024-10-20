@@ -21,8 +21,8 @@ function Header() {
       </div>
       <ul style={{ listStyle: 'none', margin: '0', padding: '0', display: 'flex' }}>
         <li style={{ marginRight: '20px' }}><Link to="/" style={{ color: '#5c3b1e', textDecoration: 'none' }}>Home</Link></li>
-        <li style={{ marginRight: '20px' }}><Link to="/about-us" style={{ color: '#5c3b1e', textDecoration: 'none' }}>About Us</Link></li>
-        <li style={{ marginRight: '20px' }}><Link to="/products" style={{ color: '#5c3b1e', textDecoration: 'none' }}>Products</Link></li>
+        {/* <li style={{ marginRight: '20px' }}><Link to="/about-us" style={{ color: '#5c3b1e', textDecoration: 'none' }}>About Us</Link></li>
+        <li style={{ marginRight: '20px' }}><Link to="/products" style={{ color: '#5c3b1e', textDecoration: 'none' }}>Products</Link></li> */}
         <li><Link to="/blog" style={{ color: '#5c3b1e', textDecoration: 'none' }}>Blog</Link></li>
       </ul>
     </nav>
