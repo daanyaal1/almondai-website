@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import Products from './pages/Products';
 import Blog from './pages/Blog';
+import Footer from './components/Footer';  // Import the Footer component
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/blog" element={<Blog />} />
       </Routes>
+      <Footer />  {/* Add Footer component here */}
     </Router>
   );
 }
