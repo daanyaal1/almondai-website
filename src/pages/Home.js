@@ -6,16 +6,22 @@ import { faCode, faTools, faCloud, faDatabase } from '@fortawesome/free-solid-sv
 function Home() {
   return (
     <div style={{ padding: '2rem', maxWidth: '800px', margin: 'auto', textAlign: 'center' }}>
-      <p style={{ fontSize: '1.5rem', fontWeight: '600', marginBottom: '2rem' }}>Specialists in AI Development</p>
+      <p style={{ fontSize: '1.5rem', fontWeight: '600', marginBottom: '1rem' }}>Specialists in AI Development</p>
+      
+      {/* New line added here */}
+      <p style={{ fontSize: '1rem', fontWeight: '500', marginBottom: '2rem' }}>
+        We have expertise implementing machine learning and AI projects end-to-end.
+      </p>
 
       <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '10px', marginBottom: '2rem' }}>
         <span style={{ backgroundColor: '#f0f0f0', padding: '8px 16px', borderRadius: '20px', fontSize: '1rem' }}>AI/ML</span>
         <span style={{ backgroundColor: '#f0f0f0', padding: '8px 16px', borderRadius: '20px', fontSize: '1rem' }}>GenAI</span>
         <span style={{ backgroundColor: '#f0f0f0', padding: '8px 16px', borderRadius: '20px', fontSize: '1rem' }}>Cloud Computing</span>
-        <span style={{ backgroundColor: '#f0f0f0', padding: '8px 16px', borderRadius: '20px', fontSize: '1rem' }}>MLOps</span>
-        <span style={{ backgroundColor: '#f0f0f0', padding: '8px 16px', borderRadius: '20px', fontSize: '1rem' }}>Data Science</span>
+        <span style={{ backgroundColor: '#f0f0f0', padding: '8px 16px', borderRadius: '20px', fontSize: '1rem' }}>MLOps / ML Infra</span>
+        <span style={{ backgroundColor: '#f0f0f0', padding: '8px 16px', borderRadius: '20px', fontSize: '1rem' }}>Data Science / Engineering</span>
       </div>
 
+      {/* Rest of the component remains unchanged */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '3rem', textAlign: 'left', gap: '2rem' }}>
         {/* Left side: Name, title, and social links */}
         <div style={{ textAlign: 'left', flex: '1' }}>
@@ -62,17 +68,16 @@ function Home() {
       {/* Bio section below */}
       <div style={{ marginTop: '2rem' }}>
         <p style={{ fontSize: '1rem', lineHeight: '1.6', marginBottom: '1rem' }}>
-          Daanyaal is an AI engineer with extensive experience in building and deploying AI/ML solutions. 
+          Daanyaal is an AI specialist with deep practical experience building and deploying AI/ML solutions. 
           He holds a master's degree in Mathematics & Physics from the University of Warwick, where his research 
           focused on using deep learning models to detect new physics at the MicroBooNE particle experiment. His work applying AI to physics began in 2018, well before machine learning’s recognition in the 2024 Physics Nobel Prize!
         </p>
         <p style={{ fontSize: '1rem', lineHeight: '1.6', marginBottom: '1rem' }}>
-          Professionally, Daanyaal has experience as a Machine Learning Engineer at top-tier firms including JPMorgan and Arm. At JPMorgan, he developed a proprietary algorithm, Data Lens, to speed up financial transaction matching. At Arm, he worked on AI algorithms to help deliver the next generation of CPUs and GPUs faster and at a bigger scale. More recently, at Alfa Financial Software, he led AI innovations, including deploying an LLM-powered chatbot solution using AWS infrastructure.
+          Professionally, Daanyaal has experience as a Machine Learning Engineer/Data Scientist at top-tier firms including JPMorgan and Arm. At JPMorgan, he developed a proprietary algorithm, Data Lens, to speed up financial transaction matching. At Arm, he worked on AI algorithms to help deliver the next generation of CPUs and GPUs faster and at a bigger scale. More recently, at Alfa Financial Software, he led GenAI innovations, including deploying an LLM-powered chatbot hosted on AWS Cloud.
         </p>
       </div>
     </div>
   );
 }
-
 
 export default Home;
