@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../images/LOGO.webp'; // Adjust the file name if it's different
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'; // Import LinkedIn icon
 
 function Header() {
   return (
@@ -19,12 +21,14 @@ function Header() {
         />
         <h1 style={{ color: '#5c3b1e', margin: '0' }}>Almond AI</h1>
       </div>
-      <ul style={{ listStyle: 'none', margin: '0', padding: '0', display: 'flex' }}>
-        {/* <li style={{ marginRight: '20px' }}><Link to="/" style={{ color: '#5c3b1e', textDecoration: 'none' }}>Home</Link></li> */}
-        {/* <li style={{ marginRight: '20px' }}><Link to="/about-us" style={{ color: '#5c3b1e', textDecoration: 'none' }}>About Us</Link></li>
-        <li style={{ marginRight: '20px' }}><Link to="/products" style={{ color: '#5c3b1e', textDecoration: 'none' }}>Products</Link></li> */}
-        <li>
+      <ul style={{ listStyle: 'none', margin: '0', padding: '0', display: 'flex', alignItems: 'center' }}>
+        <li style={{ marginRight: '20px' }}>
           <a href="https://medium.com/@daanyaal" target="_blank" rel="noopener noreferrer" style={{ color: '#5c3b1e', textDecoration: 'none' }}>Blog</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/company/almond-ai" target="_blank" rel="noopener noreferrer" style={{ color: '#5c3b1e', textDecoration: 'none' }}>
+            <FontAwesomeIcon icon={faLinkedin} style={{ fontSize: '24px' }} /> {/* LinkedIn Icon */}
+          </a>
         </li>
       </ul>
     </nav>
