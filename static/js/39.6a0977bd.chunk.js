@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalmondai_website=self.webpackChunkalmondai_website||[]).push([[39],{39:(e,a,s)=>{e.exports=s.p+"static/media/post1.04e968a6f080aab1264d.md"}}]);
