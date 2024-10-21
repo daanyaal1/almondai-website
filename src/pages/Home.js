@@ -78,6 +78,14 @@ function Home() {
 </p>
 
       </div>
+
+      {/* Get in Touch section */}
+      <div style={{ marginTop: '2rem', backgroundColor: '#f0f0f0', padding: '1.5rem', borderRadius: '8px', boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)' }}>
+        <h4 style={{ fontSize: '1.5rem', fontWeight: '600', marginBottom: '1rem' }}>Get in Touch</h4>
+        <p style={{ fontSize: '1rem', lineHeight: '1.6' }}>
+          If you're interested in working together or have any questions, feel free to reach out at <a href="mailto:daanyaal@almondai.io" style={{ color: '#0077b5', textDecoration: 'none' }}>daanyaal@almondai.io</a>.
+        </p>
+      </div>
     </div>
   );
 }
