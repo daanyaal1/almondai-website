@@ -5,12 +5,10 @@ import { faCode, faTools, faCloud, faDatabase } from '@fortawesome/free-solid-sv
 
 function Home() {
   return (
-    <div style={{ padding: '2rem', maxWidth: '800px', margin: 'auto', textAlign: 'center' }}>
-      <p style={{ fontSize: '1.5rem', fontWeight: '600', marginBottom: '1rem' }}>Specialists in AI Development</p>
-      
+    <div style={{ padding: '2rem', maxWidth: '800px', margin: 'auto', textAlign: 'center' }}>      
       {/* New line added here */}
       <p style={{ fontSize: '1rem', fontWeight: '500', marginBottom: '2rem' }}>
-        We have expertise implementing machine learning and AI projects end-to-end.
+        Almond AI has deep expertise implementing machine learning and AI projects end-to-end.
       </p>
 
       <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '10px', marginBottom: '2rem' }}>
@@ -73,8 +71,12 @@ function Home() {
           focused on using deep learning models to detect new physics at the MicroBooNE particle experiment. His work applying AI to physics began in 2018, well before machine learning’s recognition in the 2024 Physics Nobel Prize!
         </p>
         <p style={{ fontSize: '1rem', lineHeight: '1.6', marginBottom: '1rem' }}>
-          Professionally, Daanyaal has experience as a Machine Learning Engineer/Data Scientist at top-tier firms including JPMorgan and Arm. At JPMorgan, he developed a proprietary algorithm, Data Lens, to speed up financial transaction matching. At Arm, he worked on AI algorithms to help deliver the next generation of CPUs and GPUs faster and at a bigger scale. More recently, at Alfa Financial Software, he led GenAI innovations, including deploying an LLM-powered chatbot hosted on AWS Cloud.
-        </p>
+  Professionally, Daanyaal has experience as a Machine Learning Engineer/Data Scientist at top-tier firms including JPMorgan and Arm. At JPMorgan, he developed a proprietary rule learning algorithm, Data Lens, to speed up financial transaction matching. At Arm, he worked on ML guided optimization algorithms to help deliver the next generation of CPUs and GPUs faster and at a bigger scale. More recently, at Alfa Financial Software, he led GenAI innovations including building the LLM-powered assistant&nbsp;
+   <a href="https://www.alfasystems.com/en-us/product/article/intelligent-automation#:~:text=2.%20AskThea" target="_blank" rel="noopener noreferrer" style={{ color: '#0077b5', textDecoration: 'none' }}>
+      AskThea
+  </a>.
+</p>
+
       </div>
     </div>
   );

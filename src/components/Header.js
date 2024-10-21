@@ -12,14 +12,17 @@ function Header() {
           src={logo} 
           alt="Almond AI Logo" 
           style={{ 
-            height: '80px', 
-            width: '80px',  // Ensuring the image is square
+            height: '60px', 
+            width: '60px',  // Ensuring the image is square
             borderRadius: '80%', // Making the image circular
             objectFit: 'cover',  // Ensures the image fits within the circle without distortion
             marginRight: '10px' 
           }} 
         />
-        <h1 style={{ color: '#5c3b1e', margin: '0' }}>Almond AI</h1>
+        <div>
+          <h1 style={{ color: '#5c3b1e', margin: '0' }}>Almond AI</h1>
+          <h2 style={{ color: '#5c3b1e', margin: '0', fontSize: '1rem' }}>Specialists in AI Development</h2>
+        </div>
       </div>
       <ul style={{ listStyle: 'none', margin: '0', padding: '0', display: 'flex', alignItems: 'center' }}>
         <li style={{ marginRight: '20px' }}>
