@@ -68,7 +68,7 @@ function Home() {
         <p style={{ fontSize: '1rem', lineHeight: '1.6', marginBottom: '1rem' }}>
           Daanyaal is an AI specialist with deep practical experience building and deploying AI/ML solutions. 
           He holds a master's degree in Mathematics & Physics from the University of Warwick, where his research 
-          focused on using deep learning models to detect new physics at the MicroBooNE particle experiment. His work applying AI to physics began in 2018, well before machine learning’s recognition in the 2024 Physics Nobel Prize!
+          focused on using deep learning methods to detect new physics at the MicroBooNE particle experiment. His work applying AI to physics began in 2018, well before machine learning’s recognition in the 2024 Physics Nobel Prize!
         </p>
         <p style={{ fontSize: '1rem', lineHeight: '1.6', marginBottom: '1rem' }}>
   Professionally, Daanyaal has experience as a Machine Learning Engineer/Data Scientist at top-tier firms including JPMorgan and Arm. At JPMorgan, he developed a proprietary rule learning algorithm, Data Lens, to speed up financial transaction matching. At Arm, he worked on ML guided optimization algorithms to help deliver the next generation of CPUs and GPUs faster and at a bigger scale. More recently, at Alfa Financial Software, he led GenAI innovations including building the LLM-powered assistant&nbsp;
